@@ -24,7 +24,7 @@ namespace CardGames
 
 			if (SwinGame.KeyTyped (KeyCode.vk_SPACE))
 			{
-				myGame.FlipNextCard ();
+				myGame.Start ();
 			}
 		}
 
@@ -56,6 +56,7 @@ namespace CardGames
 			//Draw onto the screen
 			SwinGame.RefreshScreen(60);
 		}
+
 
 		/// <summary>
 		/// Updates the game -- it should flip the cards itself once started!
